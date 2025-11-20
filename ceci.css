@@ -1,0 +1,79 @@
+.chill {
+  display: contents;
+}
+
+.cello {
+  display: flex;
+  margin: auto;
+}
+
+.duet {
+  flex-basis: 50%;
+}
+
+:focus { 
+  outline: thick solid;
+  box-shadow: 0 0 1ch 1ch;
+}
+
+a:hover {
+  filter: hue-rotate(-3deg);
+  text-decoration-style: double;
+}
+
+html {
+  font-family: sans-serif;
+  font-size: max(30px, 2vw);
+  line-height: 1.618;
+}
+
+body {
+  display: flex;
+  flex-flow: column;
+  margin: auto;
+  overflow-wrap: anywhere;
+}
+
+article,
+article ~ * {
+  display: flex;
+  flex-flow: column;
+  margin: 1ex 1ch;
+  margin-inline: calc(1ch + 1vw);
+  padding: 1ex 1ch;
+  padding-inline: calc(1ch + 1vw);
+}
+
+footer {
+
+}
+
+aside {
+  align-self: flex-end;
+}
+
+a[class] {
+  font-weight: 1.09em;
+}
+
+h1 { font-size: 1.618em; line-height: 1.236; font-weight: 600 }
+h2 { font-size: 1.382em; line-height: 1.236; font-weight: 500 }
+h3 { font-size: 1.382em; line-height: 1.236; font-weight: 500 }
+
+cite { font: 1em sans-serif }
+em { font: 1em cursive }
+
+kbd {
+  margin-inline-end: auto;
+  font-family: monospace;
+  font-size: .777em;
+}
+
+ol {
+  list-style: decimal;
+  margin: 1ch;
+}
+
+::marker {
+  font-family: sans-serif;
+}
