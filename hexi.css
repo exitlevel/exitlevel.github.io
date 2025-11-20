@@ -2,20 +2,20 @@
 ::selection { background: fuchsia; color: purple }
 .capture * { color: transparent !important }
 
-.blossom.blossom { background: #a7f; color: #f8d }
-.blossom ::selection { background: #f8d; color: #a7f }
+.blossom.blossom { background: #f8d; color: #91b }
+.blossom ::selection { background: #91b; color: #f8d }
 
-.duchamp.duchamp { background: #e1e; color: #eac }
-.duchamp ::selection { background: #eac; color: #e1e }
+.duchamp.duchamp { background: #eac; color: #73d }
+.duchamp ::selection { background: #73d; color: #eac }
 
-.ketu.ketu { background: #b1e; color: #ec0 }
-.ketu ::selection { background: #ec0; color: #b1e }
+.ketu.ketu { background: #ec0; color: #b1e }
+.ketu ::selection { background: #b1e; color: #ec0 }
 
-.blessed.blessed { background: #b7e; color: #300377 }
-.blessed ::selection { background: #300377; color: #b7e }
+.blessed.blessed { background: #b7e; color: #718 }
+.blessed ::selection { background: #718; color: #b7e }
 
-.garfield.garfield { background: #eac; color: #300377 }
-.garfield ::selection { background: #300377; color: #eac }
+.garfield.garfield { background: #eac; color: #91a }
+.garfield ::selection { background: #91a; color: #eac }
 
 .pallas.pallas { background: #ec0; color: #b1e }
 .pallas ::selection { background: #b1e; color: #ec0 }
