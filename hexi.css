@@ -1,0 +1,21 @@
+[href] { background: orange; color: darkviolet }
+::selection { background: fuchsia; color: purple }
+.capture * { color: transparent !important }
+
+.blossom.blossom { background: #a7f; color: #f8d }
+.blossom ::selection { background: #f8d; color: #a7f }
+
+.duchamp.duchamp { background: #e1e; color: #eac }
+.duchamp ::selection { background: #eac; color: #e1e }
+
+.ketu.ketu { background: #b1e; color: #ec0 }
+.ketu ::selection { background: #ec0; color: #b1e }
+
+.blessed.blessed { background: #b7e; color: #300377 }
+.blessed ::selection { background: #300377; color: #b7e }
+
+.garfield.garfield { background: #eac; color: #300377 }
+.garfield ::selection { background: #300377; color: #eac }
+
+.pallas.pallas { background: #ec0; color: #b1e }
+.pallas ::selection { background: #b1e; color: #ec0 }
